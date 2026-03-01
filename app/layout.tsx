@@ -66,6 +66,33 @@ export default function RootLayout({
             <GoogleAnalytics gaId={serverConfig.gaId} />
           </>
         )}
+         <footer>
+      <script defer src="https://cn.vercount.one/js"></script>
+        <div style="margin-bottom: 0.5em">
+        Powered by
+       
+      <a
+          href="https://vercel.com"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          >Vercel</a>
+      </div>
+
+      <div>
+        项目地址:
+        <a
+          href="https://github.com/zzrliu8421/NextChat"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          >daily-image</a>
+        | MIT License © <span id="year"></span> |
+        <a
+          href="https://blog.842166.xyz"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          >Zzrliu</a>
+      </div>
+            </footer>
       </body>
     </html>
   );
